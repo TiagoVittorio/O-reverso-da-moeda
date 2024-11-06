@@ -12,14 +12,14 @@ int main() {
 
  
     for (i = 0; i < 5; i++) {
-        cout << "Digite o " << i + 1 << "º nome: ";
+        cout << "Digite o " << i + 1 << "Âº nome: ";
         cin >> nomes[i];
     }
 
 
-    cout << "\nNomes na ordem de trás para a frente:\n";
+    cout << "\nNomes na ordem de trÃ¡s para a frente:\n";
     for (i = 4; i >= 0; i--) {
-        cout << nomes[i] << endl;
+        cout << nomes[i];
     }
 
     cout << "\nDeseja sair? (s para sair / n para continuar): ";
@@ -36,7 +36,7 @@ int main() {
        
         break;
     default:
-        cout << "Opção errada, por favor escolhe 's' ou 'n'!\n";
+        cout << "OpÃ§Ã£o errada, por favor escolhe 's' ou 'n'!\n";
         break;
     }
 
