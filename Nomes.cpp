@@ -32,7 +32,7 @@ int main() {
         break;
     case 'n':
     case 'N':
-        cout << "Continuando o programa...\n";
+        cout << "Continuar o programa...\n";
        
         break;
     default:
