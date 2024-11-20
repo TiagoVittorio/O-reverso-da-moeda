@@ -3,7 +3,7 @@
 #include <locale.h>
 using namespace std;
 
-int main() {
+void main() {
     setlocale(LC_ALL, "Portuguese");
 
     int i;
